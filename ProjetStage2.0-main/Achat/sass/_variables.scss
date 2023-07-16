@@ -1,0 +1,20 @@
+@mixin flexbox ($direction,$justify-content,$align-items){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+//!------------------ variables ----------------------
+//?colors
+$Light-grey :	hsl(0, 0%, 85%);
+$Dark-grey:	hsl(0, 0%, 56%);
+$Green : hsl(149, 100%, 28%);
+$Dark-green : hsl(131, 100%, 17%);
+$White : hsl(0, 100%, 100%);
+
+//?font-weight
+$Regular : 400;
+$Medium : 500;
+$Semi-bold : 600;
+$Bold : 700;
